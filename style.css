@@ -1,0 +1,75 @@
+#navigation {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-left: 70px;
+}
+#navigation a{
+    display :inline-block;
+    margin-left: 3px;
+    margin-right:3px;
+}
+#navigation a:nth-child(2) {
+    margin-right: 65%
+}
+p {
+    font-weight: 100;
+}
+
+ #banner {
+     padding: 0px;
+     background-image: url(" https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png") ;
+     height: 500px;
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+ }
+ #banner-text{
+     position: absolute;    
+     margin-top : 8%;
+     margin-left : 70px;   
+ }
+ #banner-text h1 {
+    color :white;
+     font-family :Georgia, 'Times New Roman', Times, serif ;
+     font-weight: 550 ;    
+ }
+ #footer h3 {
+    font-family :Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 550 ;    
+ }
+ #banner-text p {
+     color :white ;
+     font-size : 130% ;
+ }
+ #main-content{
+     position: relative;
+    background-color: rgb(199, 199, 199);
+    padding-left:50px ;
+    padding-right:50px;
+    margin-top :-10px ;
+    padding-top: 20px;
+ }
+ #image{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+ }
+ .column{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.image1 {
+    margin-bottom: 30px;
+}
+ div img {
+    width: 100%;
+ 
+ }
+  #footer {
+    background-color:beige;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+    padding-left:50px ;
+    padding-right:50px;
+    padding-bottom: 20px;
+ }
+
